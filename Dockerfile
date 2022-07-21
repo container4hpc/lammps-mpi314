@@ -12,6 +12,8 @@ RUN tar xf lammps.tar.gz
 RUN dirName=`tar tfz lammps.tar.gz | head -1 | cut -f1 -d"/"` \
     && cd $dirName \
     && cd src \
+    && make yes-molecule \
+    && make yes-kspace \
     && make -j$(nproc) mpi \
     && cd ../.. && rm -rf lammps.tar.gz
 
