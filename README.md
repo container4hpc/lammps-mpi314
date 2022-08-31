@@ -5,4 +5,4 @@ The MPICH 3.1.4 is installed from [base container](https://hub.docker.com/reposi
 
 # version
 
-[0.2.0](https://hub.docker.com/repository/docker/container4hpc/lammps-mpich314)
+[0.1.0](https://hub.docker.com/repository/docker/containers4hpc/lammps-mpich314)
